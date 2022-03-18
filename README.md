@@ -9,7 +9,7 @@
 
 
 
-## Unidad I - Puesta a punto
+## Unidad I - Puesta a punto y Toolkits
 
 En esta unidad veremos una introducción los algoritmos y estructura de datos. Partiremos con un repaso de programación orientada a objetos y continuaremos con Python, luego instalaremos los toolkits que utilizaremos durante el curso.
 
