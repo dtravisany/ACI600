@@ -19,7 +19,9 @@ En esta unidad veremos una introducción los algoritmos y estructura de datos. P
 2. Repaso de Python.
     1. Introducción a [Jupyter Notebooks](01_Jupyter_notebooks/README.md)
 
-    2. Práctico Python en [Jupyter Notebooks](01_Jupyter_notebooks/PythonNotebook.ipynb)  
+
+    2. Práctico Python en [Jupyter Notebooks](01_Jupyter_notebooks/PythonNotebook.ipynb) 
+    3. Clases 1, 2 y 3 [Link](02_introducción/)
 
 3. Paquetes para cálculo científico, ciencia de datos y aprendizaje automático.
     1. Práctico de [Paquetes en Python](03_Practico_Paquetes/README.md)  
