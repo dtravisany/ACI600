@@ -1,0 +1,2225 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "dLe3rXB5bFWT",
+    "outputId": "0c08987a-c13e-4f3a-be49-56cc7aa74900"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15 <class 'int'>\n",
+      "15.1 <class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=15\n",
+    "print(x,type(x))\n",
+    "y=15.1\n",
+    "print(y,type(y))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "ubTj8PURbgNb",
+    "outputId": "2706438d-fa65-4de6-910c-e85c34bb0c7d"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "21 <class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "y=21\n",
+    "print(y, type(y))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "2ySm-R56fMxR",
+    "outputId": "22a04d1b-ad4c-4875-ed2e-43c2f8d5a08c"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "31\n",
+      "210\n",
+      "441\n",
+      "3.75\n",
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(y+10)\n",
+    "print(y*10)\n",
+    "print(y**2)\n",
+    "print(x/4)\n",
+    "print(x//4)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "3oDORDitfqc7",
+    "outputId": "f43c1770-b060-4899-b72f-215d5cc1906c"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True <class 'bool'>\n",
+      "False <class 'bool'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "verdadero=True\n",
+    "falso=False\n",
+    "print(verdadero, type(verdadero))\n",
+    "print(falso,type(falso))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "tPgJwsAUgP8c",
+    "outputId": "18f582d2-3ca5-4cb9-9113-99ff050693b8"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n",
+      "False\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(verdadero or falso)\n",
+    "print(verdadero and falso)\n",
+    "print(verdadero and not falso)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "KcPPAsdjgqbr",
+    "outputId": "00568aba-9037-413c-a033-95853101b095"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "2WIBVUoZg0iz",
+    "outputId": "e8003c3c-8af6-4c5a-dc66-7a30f052f0e3"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False True False True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(x<10, x>10, x==10, x==15)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 131
+    },
+    "id": "D2jMDCFSg-eD",
+    "outputId": "45fc921a-7946-4228-d639-c5988016c4ca"
+   },
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "ignored",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-12-212b50546bc5>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    frase= \"El alumno dijo: \"No se programar\"\"\u001b[0m\n\u001b[0m                              ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "frase= \"El alumno dijo: \"No se programar\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "Uj106z-IhXNS",
+    "outputId": "e7cdfe85-ab1b-4b72-93e1-bebbd28098c1"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "El alumno dijo: \"No se programar\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "frase= 'El alumno dijo: \"No se programar\"'\n",
+    "print(frase)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "ecI-Cg6OhhBK",
+    "outputId": "999317de-f17c-46b1-f0a7-3720b6b4e73c"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Dante Travisany\n"
+     ]
+    }
+   ],
+   "source": [
+    "nombre=\"Dante\"\n",
+    "apellido=\"Travisany\"\n",
+    "completo=nombre+\" \"+apellido\n",
+    "print(completo)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 35
+    },
+    "id": "lG9VP_6Jh64z",
+    "outputId": "250f4308-456f-4941-f74f-dc0dfe7034d1"
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/vnd.google.colaboratory.intrinsic+json": {
+       "type": "string"
+      },
+      "text/plain": [
+       "'Dante travisany'"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "completo.capitalize()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 35
+    },
+    "id": "sYV8Y6eNh-8z",
+    "outputId": "e9c3c411-84fd-4316-96bf-37e76b08e686"
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/vnd.google.colaboratory.intrinsic+json": {
+       "type": "string"
+      },
+      "text/plain": [
+       "'DANTE TRAVISANY'"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "completo.upper()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 35
+    },
+    "id": "SoNloWURiG-m",
+    "outputId": "80ed0eed-b25e-4e0a-c826-34b3946306ea"
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/vnd.google.colaboratory.intrinsic+json": {
+       "type": "string"
+      },
+      "text/plain": [
+       "'dante travisany'"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "completo.lower()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "7DebPLCkibEq",
+    "outputId": "4745b187-633c-4550-e63e-72835838f5fd"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(len(completo))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "5685c3lBifh4",
+    "outputId": "34446ab5-3b0d-455a-b572-a97e1d171b26"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0, 1, 2, 3, 4, 5] <class 'list'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "lista=[0,1,2,3,4,5]\n",
+    "print(lista,type(lista))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "9Djv9Adqk6OA"
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "_2JuNmCki-82"
+   },
+   "outputs": [],
+   "source": [
+    "lista.append(6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "NjcY9Sk5jPsn",
+    "outputId": "84481ca9-a602-4e95-fa09-a94f0459e3c0"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0, 1, 2, 3, 4, 5, 6]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(lista)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "eIhXh9pYjRtv",
+    "outputId": "d0a580cd-be43-47ff-b89b-15f7c246965e"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0, 1, 2, 3, 4, 5]\n"
+     ]
+    }
+   ],
+   "source": [
+    "lista.pop()\n",
+    "print(lista)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "h60JBSiUlV3Q",
+    "outputId": "f3e3f182-ee91-4bda-9ee0-3086ec815644"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['h', 'o', 'l', '4'] <class 'list'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "lista2=['h','o','l','4']\n",
+    "print(lista2,type(lista2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "jkzdkg6pm9Jk"
+   },
+   "outputs": [],
+   "source": [
+    "lista2.append(8)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "OirBStHjmaXJ",
+    "outputId": "c1c4983a-ef72-47af-8016-aa45ce18fb8b"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "h\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(lista2[0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "I8gqu8o0mv6J",
+    "outputId": "9529a952-fb13-4ae5-b1f4-2dff20892514"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "l\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(lista[2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "158lbDkamzZJ",
+    "outputId": "1250b76b-77bb-400c-a657-27ef77df62fd"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "l\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(lista2[-3])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "vy3NTubdm2lh"
+   },
+   "outputs": [],
+   "source": [
+    "import math"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "-5XT9_r9nZpB",
+    "outputId": "561f3705-3e5a-4633-f9f9-058436ac71cc"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "13.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=5\n",
+    "b=12\n",
+    "c=math.sqrt(a**2+b**2)\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "O8xLILncnw-D"
+   },
+   "outputs": [],
+   "source": [
+    "from math import sqrt"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "nmySVZC9n8Xb",
+    "outputId": "77ef8737-01a2-4a19-e968-c66f3f40c229"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=3\n",
+    "b=4\n",
+    "c=math.sqrt(a**2+b**2)\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "k3IwPQWXoK_h"
+   },
+   "outputs": [],
+   "source": [
+    "def s(a):\n",
+    "  return sqrt(a)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "lDkuZMJEoUte",
+    "outputId": "e5eb7641-130f-4b2d-e93a-45be3b279dcd"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=s(4)\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "4P9IgR_uoYIu"
+   },
+   "outputs": [],
+   "source": [
+    "def pitagoras(a,b):\n",
+    "  from math import sqrt\n",
+    "  h=sqrt(a**2+b**2)\n",
+    "  return h"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "nuHYfwFSoyX6",
+    "outputId": "37b3a460-4293-44ba-828b-2784dd408603"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "13.0"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pitagoras(5,12)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "azsWPU-Go05y",
+    "outputId": "86550e02-9934-45c9-9561-3a49460732e6"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10.198039027185569"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pitagoras(10,2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "qzgBi3zlo3Vy",
+    "outputId": "ed674cfe-72c7-4b96-aa9f-dc30f07e340f"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "15.556349186104045"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pitagoras(11,11)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "fB1Hnorwo-yi",
+    "outputId": "06b64428-73b8-47f1-bc2f-0d0c0c81b986"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "function"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(pitagoras)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "IsWHOa2kpBia"
+   },
+   "outputs": [],
+   "source": [
+    "diccionario= {\"Nombre\":\"Daddy\", \"Apellido\":\"Yankee\", \"Telefono\":1234567890}\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 35
+    },
+    "id": "F1qlWVfbpS_y",
+    "outputId": "a0e538ba-0134-4e4e-dd48-d9b6a64ae970"
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/vnd.google.colaboratory.intrinsic+json": {
+       "type": "string"
+      },
+      "text/plain": [
+       "'Daddy'"
+      ]
+     },
+     "execution_count": 63,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "diccionario[\"Nombre\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "6itcWh0VpeCU"
+   },
+   "outputs": [],
+   "source": [
+    "diccionario[\"Nombre\"]='Daddy Jr.'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 35
+    },
+    "id": "4coH-xMmppds",
+    "outputId": "c1cdefe6-398a-4208-c5f6-b53b4ff063fc"
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/vnd.google.colaboratory.intrinsic+json": {
+       "type": "string"
+      },
+      "text/plain": [
+       "'Daddy Jr.'"
+      ]
+     },
+     "execution_count": 65,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "diccionario[\"Nombre\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "Hgub_ODapsGc"
+   },
+   "outputs": [],
+   "source": [
+    "var=diccionario[\"Apellido\"]+diccionario[\"Nombre\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 35
+    },
+    "id": "J_WksUi5pvgU",
+    "outputId": "6f4136b0-de16-468a-c822-e3cf5bf126c9"
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/vnd.google.colaboratory.intrinsic+json": {
+       "type": "string"
+      },
+      "text/plain": [
+       "'YankeeDaddy Jr.'"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "var"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "abYdAp2Gp7Ct"
+   },
+   "outputs": [],
+   "source": [
+    "dict_cachipun={\"piedra\":0,\"papel\":1,\"tijera\":2}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "eH2yO66gqjJb"
+   },
+   "outputs": [],
+   "source": [
+    "dict_cachipun.update()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "RTvnPBI1q3e1",
+    "outputId": "bb48314b-15d7-4e5a-8ea1-d2a35218d919"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(dict_cachipun[\"piedra\"])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "DsNY8YtyrGsG"
+   },
+   "outputs": [],
+   "source": [
+    "lista_cachipun=[\"piedra\",\"papel\",\"tijera\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/",
+     "height": 35
+    },
+    "id": "Tdcm4MulrSJ8",
+    "outputId": "ba1eeeec-2192-4dbf-e19b-a0d901545997"
+   },
+   "outputs": [
+    {
+     "data": {
+      "application/vnd.google.colaboratory.intrinsic+json": {
+       "type": "string"
+      },
+      "text/plain": [
+       "'piedra'"
+      ]
+     },
+     "execution_count": 77,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lista_cachipun[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "nah5UMuzrcVm"
+   },
+   "outputs": [],
+   "source": [
+    "def mayor(a,b):\n",
+    "  if a>b:\n",
+    "    mayor=a\n",
+    "  else:\n",
+    "    mayor=b\n",
+    "  return mayor  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "Mh6FNxs7sHXu",
+    "outputId": "af07ab5b-d512-4139-e566-e9446f12881a"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 79,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "mayor(10,2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "4oL0giMJsI92",
+    "outputId": "09f3a80c-6407-45cf-e4d3-21ef37e9d2ef"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 80,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "mayor(1,5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "h-y6MgvmsK-u",
+    "outputId": "64ed267f-9970-4b12-834d-53cac65e81df"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 81,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "mayor(1,1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "GJKJW55osMle",
+    "outputId": "81eda6d3-c66b-4458-c680-dd549430ec6c"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1.1"
+      ]
+     },
+     "execution_count": 82,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "mayor(1.1,1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "u-HCBAzSsR-O"
+   },
+   "outputs": [],
+   "source": [
+    "def cachipun():\n",
+    "  from random import randint\n",
+    "  computador=randint(0,2)\n",
+    "  player=dict_cachipun[input(\"piedra, papel o tijera?\")]\n",
+    "  if computador==player:\n",
+    "    resultado=\"Empate\"\n",
+    "  else:\n",
+    "    if (computador+1)%3==player:\n",
+    "      resultado=\"Me ganaste =(\"\n",
+    "    else:\n",
+    "      resultado=\"Te gané!!\"\n",
+    "\n",
+    "  print(\"Jugaste:\"+lista_cachipun[player])      \n",
+    "  print(\"Computador Juega:\"+lista_cachipun[computador])\n",
+    "  print(\"Resultado:\"+resultado)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "nzSuM9Qdt0cg",
+    "outputId": "781e0231-6bf0-49e5-ac8f-97f41cf3f344"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "piedra, papel o tijera?tijera\n",
+      "Jugaste:tijera\n",
+      "Computador Juega:papel\n",
+      "Resultado:Me ganaste =(\n"
+     ]
+    }
+   ],
+   "source": [
+    "cachipun()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "3xbvvM75t3Gf",
+    "outputId": "1144824b-bff7-4d48-e0e6-695c98713da7"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "piedra, papel o tijera?papel\n",
+      "Jugaste:papel\n",
+      "Computador Juega:papel\n",
+      "Resultado:Empate\n"
+     ]
+    }
+   ],
+   "source": [
+    "cachipun()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "hLAT9YkevMWR",
+    "outputId": "242d9420-9621-4d8e-a53e-d8c4c7aaf48a"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "piedra, papel o tijera?tijera\n",
+      "Jugaste:tijera\n",
+      "Computador Juega:piedra\n",
+      "Resultado:Te gané!!\n",
+      "seguimos?si\n",
+      "piedra, papel o tijera?tijera\n",
+      "Jugaste:tijera\n",
+      "Computador Juega:tijera\n",
+      "Resultado:Empate\n",
+      "seguimos?no\n"
+     ]
+    }
+   ],
+   "source": [
+    "jugar={'si':1,'no':0}\n",
+    "seguir=1\n",
+    "while(seguir==1):\n",
+    "    cachipun()\n",
+    "    seguir=int(jugar[input(\"seguimos?\")])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "QEq3Dx3-vhvZ"
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "zXGWT71bLSlK"
+   },
+   "source": [
+    "La instrucción `for` itera a partir de una variable que toma valores de una lista. A menudo, esta lista puede ser espificada por `range`. Lo que haremos será volver a nuestro algoritmo de búsqueda de máximo utilizando `for`."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "SpEMRVCSL1xZ"
+   },
+   "outputs": [],
+   "source": [
+    "# le entregaremos un par de números y retorna el mayor.\n",
+    "\n",
+    "\n",
+    "\n",
+    "def mayor(a,b):\n",
+    "  if a>b:\n",
+    "    mayor=a\n",
+    "  else:\n",
+    "    mayor=b\n",
+    "  return mayor "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "209F-456NjH_",
+    "outputId": "93ed2384-e905-4868-dde9-25f6e2788903"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "mayor(5,8)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "70j0OWv9NlrW",
+    "outputId": "fbbea1e3-469b-467f-c8e5-9548c783a377"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "mayor(8,3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "f7TvjRGeNn3O",
+    "outputId": "4e107950-7b2a-4bec-c565-cab6d6b8aec7"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "mayor(1,1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "8y83pFAMNrI2"
+   },
+   "outputs": [],
+   "source": [
+    "# definir una nueva función que retorne el valor máximo de una lista.\n",
+    "\n",
+    "def maxlist(l):\n",
+    "  mayor=l[0]\n",
+    "  for i in range(1,len(l)):\n",
+    "    if l[i]>mayor:\n",
+    "      mayor=l[i]\n",
+    "  return mayor\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "rxsZlnuXPXd4",
+    "outputId": "fd4de05c-8ca4-4031-b316-85504fa6bd61"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "lista1=[1,5,2,3,1]\n",
+    "maxlist(lista1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "PkU-Uf7LPg5C"
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "t7Tip8zFRcgv"
+   },
+   "source": [
+    "El comentario que aparece junto al `for` describe el __invariante__ del ciclo, es útil para poder argumentar la correctitud del programa así como para poder apoyar el diseño del mismo.  \n",
+    "El invariante es una afirmación lógica que debe ser `True` cada vez que se inicia una nueva iteración del ciclo, lo cual incluye la primera y la última iteración, en la última iteración se detecta que el rango se ha agotado y el ciclo termina.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "jaJzgVcDS6gd"
+   },
+   "source": [
+    "1. La validez del invariante la primera vez debe asegurar las instrucciones previas al ciclo (INSTRUCCIONES DE INICIALIZACIÓN). En nuestro caso, al comenzar el ciclo se tiene que $i = 1$, por lo tanto se cumple que $mayor = maxlist(l[0])$.\n",
+    "2. Las instrucciones dentro del ciclo, llamado _cuerpo del ciclo_ parten de la premisa del invariante que se cumple al inicio, y debe garantizar que se cumpla al final. De esta manera deja todo listo para la siguiente iteración. Esto se llama preservar el invariante.  En nuestro algoritmo debemos asegurar que para que $mayor = maxlist(l[0],...,l[i])$ sea cierto, solo debemos modificar el valor de $mayor$ cuando aparezca el caso de que $l[i]$ sea mayor que $mayor$, sino debe quedar igual.\n",
+    "3. Cuando se detecta que el rango se ha agotado, el invariante igual se debe cumplir y ambas cosas deben asegurar que haya logrado el objetivo deseado. En este ejemplo, cuando $i$ llega a ser igual a $len(l)$, el invariante implica que $mayor = maxlist(l[0],...,l[len(l)-1])$, es decir, el máximo de la lista. \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "c0bsVyJvas0_"
+   },
+   "source": [
+    "# Instrucción iterativa (ciclo) `while`\n",
+    "  \n",
+    "  La instrucción `while` ejecuta instrucciones mientras la condición específica sea `True`:  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "Cg7aX5jnSxd9"
+   },
+   "outputs": [],
+   "source": [
+    "#Calcular un número primo:\n",
+    "\n",
+    "def primo(n):\n",
+    "  if n==2:\n",
+    "    return True # 2 es el único número par que es primo\n",
+    "  if n%2==0:\n",
+    "    return False # cualquier número que su resto me dé igual a 0, es par, por lo tanto no es primo.\n",
+    "  i=3\n",
+    "  while i**2<=n: # No es necesario buscar factores que vayan más allá de la raíz de n: sqrt(n)\n",
+    "    if n%i==0:\n",
+    "      return False # si n es divisible por i, entonces no es primo.\n",
+    "    i=i+2\n",
+    "    # si no se encuentra ningun factor \n",
+    "    #menor que raíz de n, el número es primo\n",
+    "  return True "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "0OVCWo22e7PJ",
+    "outputId": "048bcb97-df48-4854-f01a-cdf288954b06"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "primo(5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "SpcjeGpne-nx",
+    "outputId": "b4a75eef-355d-4e10-cc1e-c00757fcf4a5"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(primo(17))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "ZyRBa4jifBD2",
+    "outputId": "04227e90-cad6-4c93-fa70-d2183eac103f"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(primo(6))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "3624NgflfGt-",
+    "outputId": "8a82c326-c47c-4bf0-c9cc-07fade8c5f9d"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(primo(798789091737646))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "h_OdrOTVfKK-",
+    "outputId": "67558eb1-aa35-4b2f-ebc0-ec5ca5cc1824"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(primo(79823492869))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "JQzhc2IbgbKR"
+   },
+   "source": [
+    "# Programación con Invariantes: particionando un conjunto.\n",
+    "\n",
+    "Suponer que tenemos un conjunto de datos en una lista $l[0],\\ldots,l[n-1]$ y un valor de corte $c$. Deseamos ordenar los datos dentro de nuestro conjunto, de modo que los valores menores a $c$ queden a la izquierda de $c$ y los mayores a la derecha. \n",
+    "\n",
+    "Para simplificar el problema, en nuestro conjunto no está el valor $c$. \n",
+    "\n",
+    "  \n",
+    "Este problema es común en informática y veremos soluciones clásicas a lo largo del curso como el algoritmo __Quicksort__, el __Bubblesort__, entre otros.\n",
+    "\n",
+    "\n",
+    "![particion](assets/hoare.png)\n",
+    "\n",
+    "\n",
+    "El autor del algoritmo __Quicksort__ se apellida __Hoare__ y utilizaremos su primera implementación.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "id": "fzm0oo59fs5T"
+   },
+   "outputs": [],
+   "source": [
+    "def hoare(l,c):\n",
+    "    #recibe como input una lista l y un valor de corte c.\n",
+    "    n=len(l)\n",
+    "    (i,j)=(0,n-1) # ¿por qué?, porque para nuestra función los elementos son desconocidos\n",
+    "    # entonces, tomaremos el primer índice y el último índice de la lista.\n",
+    "    while i<=j:\n",
+    "        if l[i]<c:\n",
+    "            i=i+1\n",
+    "        elif l[j]>c:\n",
+    "            j=j-1\n",
+    "        else:\n",
+    "            (l[i],l[j])=(l[j],l[i])\n",
+    "            i+=1\n",
+    "            j-=1\n",
+    "    return(c,i,l)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "NhFPWiljqFXF"
+   },
+   "source": [
+    "Antes de proceder a ejecutar nuestro algoritmo, crearemos una función auxiliar que revise que la partición se haga de forma correcta."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "8cU7aoHDnWgC"
+   },
+   "outputs": [],
+   "source": [
+    "def check(t): # revisará la partición\n",
+    "    (c,m,l)=t\n",
+    "    #c= punto de corte, m= número de elementos < c , l=lista completa particionada\n",
+    "    print(l[0:m],c,l[m:])\n",
+    "    print(\"Partición OK\" if(m==0 or max(l[0:m])<c) and (m==len(l) or min(l[m:])> c) \n",
+    "    else \"Error\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "BS2eYXwgtXLW",
+    "outputId": "62cdc90f-74aa-428f-b6e1-63cbbb263ee3"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[10, 20, 5, 3, 8, 1] 21 [100, 200, 40]\n",
+      "Partición OK\n"
+     ]
+    }
+   ],
+   "source": [
+    "lista1=[10,20,5,3,8,40,100,200,1]\n",
+    "check(hoare(lista1,21))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "2VRhB9x3tkIH",
+    "outputId": "c51de6c5-3f3b-497f-d753-1032e95c85fd"
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[10, 20, 5, 3, 8, 1, 40] 99 [200, 100]\n",
+      "Partición OK\n"
+     ]
+    }
+   ],
+   "source": [
+    "check(hoare(lista1,99))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "lQn01P98THFp"
+   },
+   "source": [
+    "# Ejemplo 2 de invariante: Calcular $y=x^n$\n",
+    "  \n",
+    "Supongamos que no tunieramos una operación de elevación (`**`) y necesitamos calcular $x^n$ $\\forall$ $n > 0 $. El algoritmo obvio es calcular $ x \\cdot x \\cdot x\\cdots \\cdot x$, $n$ veces.\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "lLk_UObRboiQ"
+   },
+   "outputs": [],
+   "source": [
+    "import time"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "-45v8uW9vls3"
+   },
+   "outputs": [],
+   "source": [
+    "def potencia(x,n):\n",
+    "  y=1\n",
+    "  for i in range(0,n):\n",
+    "    y=y*x\n",
+    "  return y "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "91YQB6kbcJxI"
+   },
+   "outputs": [],
+   "source": [
+    "def tiempo(comando):\n",
+    "  start=time.time()\n",
+    "  x=comando\n",
+    "  return time.time()-start"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "BoFwSRAmceAM",
+    "outputId": "da0d8a81-1aed-44d2-9a99-b637e73cdec9"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4.76837158203125e-07"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "tiempo(potencia(2,2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "fEcpKdpCWuXY",
+    "outputId": "47c55635-fd38-4e64-c7f7-a786e71bea6e"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2.384185791015625e-07"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "tiempo(potencia(2,1000))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "X5fQdcigWzWw",
+    "outputId": "a9e43ecf-413c-4d76-cd71-2f8da7db4a43"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\n",
+    "potencia(10,100)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "xziDCnX7Z3Jm"
+   },
+   "source": [
+    "### ¿Cómo podemos mejorar nuestro algoritmo?\n",
+    "\n",
+    "  \n",
+    "El primero truco que vamos a hacer es reescribir nuestro algoritmo, comenzaremos por disminuir $k$ en vez de ir aumentando, usando ahora un ciclo `while`.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "f6Ts2JWDXR1A"
+   },
+   "outputs": [],
+   "source": [
+    "def potencia2(x,n):\n",
+    "  y=1\n",
+    "  k=n\n",
+    "  while(k>0):\n",
+    "    y*=x\n",
+    "    k-=1\n",
+    "  return y\n",
+    "  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "_SxCnupGbLyB",
+    "outputId": "54cfdb95-2e3f-4d70-bc9e-41c567695a89"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4.76837158203125e-07"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "tiempo(potencia2(2,10000))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "G5y1ZFpJbO-Y",
+    "outputId": "40ec5c08-732c-4b53-9f0e-ee23436e7185"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9.5367431640625e-07"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "tiempo(potencia(2,10000))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "HK-p8NzKg7FM"
+   },
+   "source": [
+    "Lo que hicimos fur modificar el invariante por $y= x^{n-k}$ que es lo mismo que decir $y * z^k= x^n$, pero lo preservamos dado que  $y * z^k = (y*z)^{k-1}$.  \n",
+    "Podemos ver que este cambio a simple vista parece ocioso, pero nos permite tener más grados de libertad sobre el invariante. \n",
+    "  \n",
+    "Existe un caso particular, cuando $k$ es par. En ese caso, como $z^n=(z^2)^{n/2}$.\n",
+    "  \n",
+    "Si elevamos $z$ al cuadrado y al mismo tiempo dividimos $k$ a la mitad, ambos cambios se complementan para hacer que el invariante se preserve. El algoritmo resultante se llama: __algoritmo binario__."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "zngW7U-Ydoel"
+   },
+   "outputs": [],
+   "source": [
+    "def binario(x,n):\n",
+    "  y=1\n",
+    "  k=n\n",
+    "  z=x\n",
+    "  while k>0:\n",
+    "    # caso k par\n",
+    "    if k%2 == 0: \n",
+    "      z=z*z\n",
+    "      k//=2\n",
+    "    else:\n",
+    "      y*=z\n",
+    "      k-=1\n",
+    "  return y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "2J4zuAxjqJ_W",
+    "outputId": "866a3eaf-a414-4a9a-a8fb-f5ebbe893a1e"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831652624386837205668069376"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "binario(2,1000)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "oW8UD9JQqMR4",
+    "outputId": "452ccac0-c488-4b42-83fc-a37f80072926"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4.76837158203125e-07"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "tiempo(binario(2,1000))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "id": "7ZJM78x9qQ0e"
+   },
+   "outputs": [],
+   "source": [
+    "def binario2(x,n):\n",
+    "  y=1\n",
+    "  k=n\n",
+    "  z=x\n",
+    "  while k>0:\n",
+    "    #while para caso par\n",
+    "    while k%2 == 0:\n",
+    "      z=z*z\n",
+    "      k//=2\n",
+    "    y*=z # k es impar\n",
+    "    k-=1\n",
+    "  return y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "hviQv50PsbCa",
+    "outputId": "8674c5ab-a742-41e4-b2ca-88d813fa27e1"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831652624386837205668069376"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "binario2(2,1000)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "colab": {
+     "base_uri": "https://localhost:8080/"
+    },
+    "id": "IHmlgyOTsdrK",
+    "outputId": "9efe533b-fd8a-45af-89d9-fc2e4db8f3d5"
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4.76837158203125e-07"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "tiempo(binario2(2,1000))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "tJkfMWMBt-V0"
+   },
+   "source": [
+    "Este algoritmo en cualquiera de sus versiones se llama algoritmo binario, es mucho más eficiente que el algoritmo que hicimos al principio. Cada vez que se da el caso par, $k$ disminuye a la mitad. Eso ocurre al menos la mitad de las veces. Pero si $k$ comienzo con el valor $n$, la operación de dividir por $2$ se puede ejecutar a lo más $log_2n$ veces, por lo tanto el tiempo de ejecución es $\\Theta(log_2 n)$ en vez de $\\Theta(n)$.\n",
+    "\n",
+    "Decimos que el algoritmo original es de tiempo lineal, mientras que el binario es de tiempo logarítmico. Cuando la entrada $n$ es grande la diferencia en los tiempos de ejecución será sustancial, favoreciendo al algoritmo binario.\n",
+    "\n",
+    "Es importante destacar que para que el algoritmo binario funcione solo es necesario que $x,y,z \\in $ a un conjunto para el cual hayan definida la operación multiplicativa con propiedades asociativas y que tenga un elemento neutro. Esto nos permite utilizar el algoritmo binario para trabajar con números enteros, reales; incluso para calcular potencia de matrices."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "1WobXrndwfSj"
+   },
+   "source": [
+    "## ¿Por qué se llama algoritmo binario?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "Qr0gqhG7z0Ci"
+   },
+   "source": [
+    "Supongamos que queremos calcular nuestro año $2022$ en base 10:  \n",
+    "$$\n",
+    "(2022)_{10}= 2\\cdot10^3+0\\cdot10^2+2\\cdot10^1+2\\cdot10^0\n",
+    "$$\n",
+    "\n",
+    "Supongamos un número cualquiera escrito en base $2$:\n",
+    "\n",
+    " $$\n",
+    " (110101)_2=1\\cdot2^5+1\\cdot2^4+0\\cdot2^3+1\\cdot2^2+0\\cdot2^1+1\\cdot2^0\n",
+    " $$\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "GeY2tY-u1TG6"
+   },
+   "source": [
+    "Podemos escribir un número en base $b$ utilizando lo siguiente:  \n",
+    "\n",
+    "$$\n",
+    "( ...d_3d_2d_1d_0)=\\sum_{k \\ge 0} d_kb^k\n",
+    "$$\n",
+    "\n",
+    "donde $0 \\le d_k \\le b-1$, $∀$ $k$.\n",
+    "  \n",
+    "Volviendo al problema de calcular $y = x^n$, pensemos en nuestro valor 53 calculado en pizarra.\n",
+    "\n",
+    "Si escribimos el exponente en binario tendríamos\n",
+    "$$\n",
+    "\\begin{align}\n",
+    "x^{53} &=x^{(110101)_2}\\\\\n",
+    "& = x^{1\\cdot2^5+1\\cdot2^4+0\\cdot2^3+1\\cdot2^2+0\\cdot2^1+1\\cdot2^0}\\\\\n",
+    "& =x^{2^5}+x^{2^4}+x^{2^2}+x^{2^0}\\\\  \n",
+    "& = x^{32}+x^{16}+x^{4}+x^{1}\\\\\n",
+    "\\end{align}\n",
+    "$$"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "id": "JrTgwBAQt-Nf"
+   },
+   "source": [
+    "Como vemos, el valor final calculado es el producto de los $x$ elevados a aquellas potencias de 2 que corresponden exactamente adonde hay un dígito $1$ en la representación binaria del número $n$. Veremos que eso es exactamente lo que hace al algoritmo.\n",
+    "\n",
+    "Si examinamos el algoritmo, en su primera versión, podemos ver que su estado se puede representar por una terna $(k,z,y)$, la cual tiene el valor inicial $(n,x,1)$. En cada iteración tenemos dos casos:\n",
+    "\n",
+    "Caso $k$ par:\n",
+    "$$\n",
+    "(k,z,y) \\rightarrow (\\frac{k}{2},z^2,y)\n",
+    "$$\n",
+    "\n",
+    "Caso $k$ impar:\n",
+    "$$\n",
+    "(k,z,y) \\rightarrow (k-1,z,yz)\n",
+    "$$\n",
+    "\n",
+    "Estas reglas adquieren una forma mucho muy simple si el número $k$ se considera escrito en binario. En esta base un número es *par* si termina en $0$ y es *impar* si termina en 1. Además, restarle $1$ a un número impar es equivalente a sustituir el $1$ de más a la derecha por un $0$, y dividir por $2$ un número par es equivalente a eliminar el $0$ de más a la derecha.\n",
+    "\n",
+    "Con esto, podemos reformular nuestras reglas, suponiendo que el número $k$ se escribe en binario en la forma $(\\alpha X)_2$, donde $X$ es el dígito de más a la derecha y $\\alpha$ es la secuencia de dígitos que lo preceden. Entonces\n",
+    "\n",
+    "Caso $k$ terminado en $0$:\n",
+    "$$\n",
+    "((\\alpha 0)_2,z,y) \\rightarrow ((\\alpha)_2,z^2,y)\n",
+    "$$\n",
+    "\n",
+    "Caso $k$ terminado en $1$:\n",
+    "$$\n",
+    "((\\alpha 1)_2,z,y) \\rightarrow ((\\alpha 0)_2,z,yz)\n",
+    "$$\n",
+    "\n",
+    "En palabras: la variable $z$ va tomando sucesivamente los valores $x^1,x^2,x^4,x^8,\\ldots$, y el valor final calculado es $x$ elevado a la suma aquellas potencias que corresponden exactamente adonde hay un dígito $1$ en la representación binaria del número $n$.\n",
+    "\n",
+    "La siguiente tabla muestra la ejecución del algoritmo para $n=53$:\n",
+    "\n",
+    "| $k$ | $z$ | $y$ |\n",
+    "| --- | --- | --- |\n",
+    "| $(110101)_2$ | $x^1$ | $1$ |\n",
+    "| $(110100)_2$ | $x^1$ | $x^1$ |\n",
+    "| $(11010)_2$ | $x^2$ | $x^1$ |\n",
+    "| $(1101)_2$ | $x^4$ | $x^1$ |\n",
+    "| $(1100)_2$ | $x^4$ | $x^{1+4}=x^5$ |\n",
+    "| $(110)_2$ | $x^8$ | $x^{1+4}=x^5$ |\n",
+    "| $(11)_2$ | $x^{16}$ | $x^{1+4}=x^5$ |\n",
+    "| $(10)_2$ | $x^{16}$ | $x^{1+4+16}=x^{21}$ |\n",
+    "| $(1)_2$ | $x^{32}$ | $x^{1+4+16}=x^{21}$ |\n",
+    "| $(0)_2$ | $x^{32}$ | $x^{1+4+16+32}=x^{53}$ |\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "colab": {
+   "name": "Untitled1.ipynb",
+   "provenance": []
+  },
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 1
+}
